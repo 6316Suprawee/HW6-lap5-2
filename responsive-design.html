@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/db0d34374d.js" crossorigin="anonymous"></script>
+    
+    <style>
+        .wrap{
+            background-color: rgb(21, 21, 247);
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 50px;
+            margin:50px;
+            padding:10px; 
+            color:white;
+        }
+        @media (max-width : 1117px) {
+		
+            .content{
+                background-color: lightgray;
+                border:1px solid black;
+                display:flex;
+                margin:50px;
+                flex-direction: column;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+        }
+
+        @media (min-width : 1118px) {
+		
+        .content{
+            background-color: lightgray;
+            border:1px solid black;
+            display:flex;
+            margin:50px;
+            flex-direction: column;
+            float:left;
+            width:800px;
+            height:300px;
+            text-align: center;
+            margin-left: 200px;
+        }
+    }
+        .botton{
+            color:white;
+        }
+        @media (min-width : 1118px) {
+        .product{
+            display: flex;
+            justify-content: left;
+            align-items:left;
+            float:left;
+            width:50px;
+            height:300px;
+            margin-top: 50px;
+        }
+    }
+        @media (max-width : 1117px) {
+        .product{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="flexible">
+        
+		<div class="product">
+            <img src="imgs/clock.jpg">
+        </div>
+
+        <div class="content">
+            Garmin Instinct, Rugged Outdoor Watch with GPS, 
+            Features GLONASS and Galileo, Heart Rate Monitoring and
+            3-axis Compass, Tundra<br><br>
+            <div class="wrap">
+                <a href="">
+                    <div class><i class="fa-solid fa-cart-plus"style="color:white;"></i>Add to cart</div>
+                </a>
+            </div>
+		</div>
+
+    </div>
+</body>
+</html>
